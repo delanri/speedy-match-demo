@@ -1,42 +1,26 @@
-# speedy-match-demo
+# SpeedyMatch AI 🚀
+> 智能简历解析与 JD 匹配引擎 (MVP 演示版)
 
-This template should help get you started developing with Vue 3 in Vite.
+## 💡 项目简介
+本项目为 SpeedyJob 匹配分析功能的最小可运行实现（MVP）。
+通过引入赛博朋克风的深度视觉交互与 AI 数据接管动画，打破传统招聘软件枯燥的匹配等待过程。
+本核心交互模块由 **Delanri** 独立构思，并借助 AI 协同 (Vibe Coding) 高效重构。
 
-## Recommended IDE Setup
+## 🛠️ 技术栈
+- **核心框架**: Vue 3 (Composition API) + TypeScript
+- **状态管理 & 路由**: Pinia + Vue Router
+- **构建工具**: Vite
+- **开发协同**: Vibe Coding (全链路 AI 协同架构设计与代码生成)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 快速运行指南
 
-## Recommended Browser Setup
+请确保您的本地环境已安装 Node.js (推荐 v18+)。
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+1. **安装依赖**
+   npm install
 
-## Type Support for `.vue` Imports in TS
+2. **启动开发服务器**
+   npm run dev
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+3. **访问预览**
+打开浏览器访问终端输出的 localhost 地址，点击【启动 AI 深度匹配】体验完整视觉交互。
