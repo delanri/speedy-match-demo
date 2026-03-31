@@ -4,7 +4,7 @@ import { ref } from 'vue'
 // [State Management] 控制核心UI流转的状态机
 const isAnalyzing = ref(false)
 const hasResult = ref(false)
-const showPanels = ref(false) // 延迟渲染面板，制造视觉冲击力
+const showPanels = ref(false) 
 const matchScore = ref(0)
 
 // [Mock Data] 模拟简历特征提取结果
